@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+    background: #d2d2c1 url('fundo.png'); /*Se por acaso a imagem de fundo não for aplicada, irá carregar essa cor acizantada no plano de fundo*/
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    text-align: center;
+    border: 1px solid rgb(12, 99, 73);
+    width: 900px;/* passo: Definir uma largura fixa para a   DIV principal*/
+
+}
+
+#menu{
+    background: #c5c5b2;
+    padding: 18px;
+}
+
+a{
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+h1{
+    color: #828271;
+    font-size: 1.2em;
+}
+
+.img-campanha{
+    border: 10px solid #c3c3ae;
+}
+.contato{
+    padding: 10px;
+}
